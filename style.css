@@ -1,0 +1,1093 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --flex-wid: clamp(20rem, 1rem + 18vw, 35rem);
+
+    --topeira-W: 15.5rem;
+    --topeira-H: 16rem;
+}
+
+
+body{
+    background-image: url(assets/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    min-width: 35rem;
+    height: 80%;
+}
+
+main{
+    margin: 0 10rem 10rem;
+    margin-top: var(--flex-wid);
+    max-width: 110rem;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .9rem;
+    min-width: 35rem;
+    max-width: 65rem;
+}
+
+.Topeiras{
+    position: relative;
+    width: var(--topeira-W);
+    height: 17rem;
+}
+    .Topeiras img{
+        width: 15rem;
+        position: absolute;
+    }
+
+/*/////////////// Topeira 1 ////////////////*/
+    
+section .Topeiras:nth-child(1) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 200ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(1) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 400ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(1) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 600ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(1) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 800ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(1) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 1000ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(1) img:nth-child(7){
+    animation: OiCobre 300ms 1200ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 6 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(6) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 1250ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(6) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 1450ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(6) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 1650ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(6) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 1850ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(6) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 2050ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(6) img:nth-child(7){
+    animation: OiCobre 300ms 2250ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 10 ///////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(10) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 2300ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(10) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 2500ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(10) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 2700ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(10) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 2900ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(10) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 3100ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(10) img:nth-child(7){
+    animation: OiCobre 300ms 3300ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 4 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(4) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 2800ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(4) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 3000ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(4) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 3200ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(4) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 3400ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(4) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 3600ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(4) img:nth-child(7){
+    animation: OiCobre 300ms 3800ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 7 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(7) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 3570ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(7) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 3770ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(7) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 3970ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(7) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 4170ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(7) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 4370ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(7) img:nth-child(7){
+    animation: OiCobre 300ms 4570ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 9 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(9) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 4800ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(9) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 5000ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(9) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 5200ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(9) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 5400ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(9) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 5600ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(9) img:nth-child(7){
+    animation: OiCobre 300ms 5800ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 12 ///////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(12) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 4800ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(12) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 5000ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(12) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 5200ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(12) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 5400ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(12) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 5600ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(12) img:nth-child(7){
+    animation: OiCobre 300ms 5800ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 2 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(2) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 6000ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(2) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 6200ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(2) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 6400ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(2) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 6600ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(2) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 6800ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(2) img:nth-child(7){
+    animation: OiCobre 300ms 7000ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 3 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(3) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 6000ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(3) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 6200ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(3) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 6400ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(3) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 6600ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(3) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 6800ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(3) img:nth-child(7){
+    animation: OiCobre 300ms 7000ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 5 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(5) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 7100ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(5) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 7300ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(5) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 7500ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(5) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 7700ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(5) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 7900ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(5) img:nth-child(7){
+    animation: OiCobre 300ms 8100ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 11 ///////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(11) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 8000ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(11) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 8200ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(11) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 8400ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(11) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 8600ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(11) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 8800ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(11) img:nth-child(7){
+    animation: OiCobre 300ms 9000ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*//////////////////////////////////////////*/
+/*/////////////// Topeira 8 ////////////////*/
+/*//////////////////////////////////////////*/
+
+section .Topeiras:nth-child(8) img:nth-child(2){
+    opacity: 0;
+    animation: OiXau5 300ms 8700ms backwards ease;
+}
+@keyframes OiXau5{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(8) img:nth-child(3){
+    opacity: 0;
+    animation: OiXau4 300ms 8900ms backwards ease;
+}
+@keyframes OiXau4{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(8) img:nth-child(4){
+    opacity: 0;
+    animation: OiXau3 300ms 9100ms backwards ease;
+}
+@keyframes OiXau3{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(8) img:nth-child(5){
+    opacity: 0;
+    animation: OiXau2 300ms 9300ms backwards ease;
+}
+@keyframes OiXau2{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(8) img:nth-child(6){
+    opacity: 0;
+    animation: OiXau1 300ms 9500ms backwards ease;
+}
+@keyframes OiXau1{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+section .Topeiras:nth-child(8) img:nth-child(7){
+    animation: OiCobre 300ms 9700ms backwards ease;
+}
+@keyframes OiCobre{
+    0%{
+        opacity: 0;
+        transform: translatey(.1rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
